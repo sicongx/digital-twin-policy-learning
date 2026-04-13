@@ -8,7 +8,7 @@ This repository provides a simplified and user-friendly implementation of a traj
 
 - `digital_twin_policy_learning.py`  
   Core implementation of the framework.  
-  This notebook defines the main classes and functions, including:
+  This module defines the main classes and functions, including:
   - Data preprocessing into trajectory format
   - RNN-based environment simulator
   - Tabular Q-learning algorithm

@@ -173,5 +173,3 @@ The example notebook demonstrates a full pipeline:
    - observed policy
    - always-treat
    - never-treat
-
-This shows how the generic interface can be adapted to a specific problem.

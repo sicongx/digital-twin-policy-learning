@@ -28,7 +28,7 @@ This framework takes long format trajectory data, converts it into model-ready s
   - Loads the sample dataset
   - Builds the learning environment
   - Trains or loads the RNN model
-  - Runs Q-learning
+  - Runs or loads Q-learning
   - Evaluates multiple policies
 
 - `facsimile_data.csv`  

@@ -161,7 +161,7 @@ Key methods:
 - `fit_tabular_q_learning(...)`  
   Runs Q-learning using the simulated environment.
 
-- `load_q_table(...)`
+- `load_q_table(...)` 
   Loads existing q table.
 
 - `evaluate_policy(policy, epochs)`  

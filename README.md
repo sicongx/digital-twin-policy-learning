@@ -4,6 +4,14 @@ This repository provides a simplified and user-friendly implementation of a traj
 
 ---
 
+## Overview
+
+<img width="1402" height="1122" alt="digital_twin_policy_learning_workflow" src="https://github.com/user-attachments/assets/97c3baa0-5ce7-4f4e-af62-714bb187cd97" />
+
+This framework takes long format trajectory data, converts it into model-ready sequential inputs, trains an RNN/LSTM model as a digital twin environment, and then applies tabular Q-learning to learn a policy. The repository is designed as a generic trajectory-based policy learning interface, while the included facsimile COVID booster dataset serves as an end-to-end example.
+
+---
+
 ## Repository Structure
 
 - `digital_twin_policy_learning.py`  

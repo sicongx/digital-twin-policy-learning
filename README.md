@@ -161,6 +161,9 @@ Key methods:
 - `fit_tabular_q_learning(...)`  
   Runs Q-learning using the simulated environment.
 
+- `load_q_table(...)`
+  Loads existing q table.
+
 - `evaluate_policy(policy, epochs)`  
   Evaluates a policy (learned or predefined).
 
@@ -179,7 +182,7 @@ The example notebook demonstrates a full pipeline:
 2. Construct a `TrajectoryDataset`
 3. Initialize `MicrosimQLearner`
 4. Train or load the RNN model
-5. Run Q-learning
+5. Run or load Q-learning
 6. Evaluate policies:
    - learned policy
    - observed policy

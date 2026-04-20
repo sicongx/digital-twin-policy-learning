@@ -43,6 +43,15 @@ This framework takes long format trajectory data, converts it into model-ready s
   - Creates derived variables such as `month_index`, `age_cat`, and `months_since_vax_cat`
   - Standardizes age and generates dummy-variable columns for the RNN covariates
   - Outputs `facsimile_model_ready_data.csv` for use in the example pipeline
+
+- `facsimile_model_ready_data.csv`  
+  Model-ready facsimile dataset derived from the synthetic long-format example data. This file contains the processed trajectory data used by the framework after the key variables for RNN covariates, RNN outcomes, and RL states have been organized into a format suitable for direct training and evaluation. It serves as the main example input for demonstrating the end-to-end pipeline in the repository.
+
+- `rnn_weights_2_128_2000_1e-04.pth`  
+  Pretrained RNN/LSTM model weights used in the facsimile COVID booster example. This file corresponds to a sequence model with 2 stacked LSTM layers, hidden size 128, trained for 2000 epochs with learning rate `1e-4`. It can be loaded directly to reproduce the example workflow without retraining the digital twin environment from scratch.
+
+- `q_table.npy`  
+  Saved tabular Q-learning policy learned from the facsimile example. This file stores the final Q-table over the discrete RL state space and action space, and can be loaded directly for policy evaluation or visualization. It is included so users can reproduce the learned policy results without rerunning the full Q-learning training procedure.
 ---
 
 # Main Classes
